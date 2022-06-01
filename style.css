@@ -1,0 +1,90 @@
+:root {
+  --color-0: #fff;
+  --color-1: #000;
+  --color-2: #ff0;
+}
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+  background: var(--color-0);
+  color: var(--color-1);
+}
+
+header {
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+small {
+  float: left;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  float: right;
+}
+
+main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
+a:hover {
+  opacity: .8;
+}
+
+a:first-of-type {
+  float: left;
+}
+
+a:nth-child(2) {
+  float: right;
+}
+
+img {
+  height: 32px;
+  width: 32px;
+}
+
+small, button, a {
+  padding: .5em;
+}
+
+@media (prefers-color-scheme: dark) {
+  body.dark {
+    background: var(--color-1);
+    color: var(--color-0);
+  }
+ 
+  .dark small {
+    color: var(--color-2);
+  }
+ 
+  .dark a:first-of-type {
+    content: url(images/GitHub-Mark/PNG/GitHub-Mark-Light-120px-plus.png);
+    float: left;
+    height: 32px;
+    width: 32px;
+  }
+ 
+  .dark a:nth-child(2) {
+    content: url("https://storage.googleapis.com/opensea-static/Logomark/Logomark-Transparent%20White.png");
+    height: 32px;
+    width: 32px;
+  }
+}
