@@ -65,26 +65,24 @@ small, button, a {
   padding: .5em;
 }
 
-@media (prefers-color-scheme: dark) {
-  body.dark {
-    background: var(--color-1);
-    color: var(--color-0);
-  }
- 
-  .dark small {
-    color: var(--color-2);
-  }
- 
-  .dark a:first-of-type {
-    content: url("https://codeberg.org/Codeberg/Design/raw/branch/main/logo/icon/png/codeberg-logo_icon_white-512x512.png");
-    float: left;
-    height: 32px;
-    width: 32px;
-  }
- 
-  .dark a:nth-child(2) {
-    content: url("https://raw.githubusercontent.com/vector-im/logos/master/matrix/matrix-favicon-white.png");
-    height: 32px;
-    width: 32px;
-  }
+body.dark {
+  background: var(--color-1);
+  color: var(--color-0);
+}
+
+.dark small {
+  color: var(--color-2);
+}
+
+.dark a:first-of-type {
+  content: url("https://codeberg.org/Codeberg/Design/raw/branch/main/logo/icon/png/codeberg-logo_icon_white-512x512.png");
+  float: left;
+  height: 32px;
+  width: 32px;
+}
+
+.dark a:nth-child(2) {
+  content: url("https://raw.githubusercontent.com/vector-im/logos/master/matrix/matrix-favicon-white.png");
+  height: 32px;
+  width: 32px;
 }
