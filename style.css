@@ -76,14 +76,14 @@ small, button, a {
   }
  
   .dark a:first-of-type {
-    content: url(images/GitHub-Mark/PNG/GitHub-Mark-Light-120px-plus.png);
+    content: url("https://codeberg.org/Codeberg/Design/raw/branch/main/logo/icon/png/codeberg-logo_icon_white-512x512.png");
     float: left;
     height: 32px;
     width: 32px;
   }
  
   .dark a:nth-child(2) {
-    content: url("https://storage.googleapis.com/opensea-static/Logomark/Logomark-Transparent%20White.png");
+    content: url("https://raw.githubusercontent.com/vector-im/logos/master/matrix/matrix-favicon-white.png");
     height: 32px;
     width: 32px;
   }

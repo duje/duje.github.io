@@ -18,15 +18,14 @@ function draw() {
   let locX = mouseX - height / 2;
   let locY = mouseY - width / 2;
 
-  // orbitControl(0.94, 0.94);
-  pointLight(255, 255, 255, locX, locY, 50);
-  ambientLight(50);
+  pointLight(250, 130, 20, locX, locY, 40);
+  ambientLight(5);
   rotateZ(frameCount*0.01);
   rotateX(frameCount*0.01);
   rotateY(frameCount*0.01);
-  specularMaterial(250);
-  shininess(60);
-  torus(55, 27, 64, 64);
+  specularMaterial(30);
+  shininess(20);
+  torus(40, 35, 40, 100);
 }
 
 function windowResized() {
